@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Operating Systems Terminology</h2>
+<div class="row">
+  <div class="column" style="background-color:rgb(99, 11, 11);">
+    <h2>Column 1</h2>
+    <p></p>
+    <ul>
+        <li>Operating System</li>
+        <li>Job queue</li>
+        <li>FIFO</li>
+        <li>Interactive processing</li>
+        <li>Time-sharing</li>
+        <li>Multiprogramming</li>
+        <li>Application software</li>
+        <li>System software</li>
+        <li>Utility software</li>
+        <li>Graphical user interface (GUI)</li>
+        <li>Shell</li>
+        <li>Kernel</li>
+        <li>Device driver</li>
+        <li>File manager</li>
+        <li>Memory manager</li>
+        <li>Virtual memory</li>
+        <li>Boot strapping</li>
+        <li>ROM</li>
+        <li>Deadlock</li>
+        <li>Spooling</li>
+        <li>Super user (or administrator)</li>
+        <li>Multi-factor authentication</li>
+  </div>
+</ul>
+  <div class="column" style="background-color:rgb(197, 85, 85);">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>
